@@ -1,0 +1,18 @@
+{
+  "slug": "zerik",
+  "name": "Zerik",
+  "role": "Trading Tools Reviewer",
+  "brand": "Trading Tools Lab",
+  "school": "Erasmus University Rotterdam · Rotterdam School of Management",
+  "major": "Finance & Investments · Financial Management",
+  "bio": "Focused on reviewing trading tools and platforms, Zerik continuously analyzes trading software, AI tools, and efficiency solutions. Through real-world testing, comparative analysis, and hands-on tutorials, he helps traders build a more efficient and stable workflow.",
+  "avatar": "assets/avatar.png",
+  "topics": [
+    "Platform Reviews",
+    "AI Trading Tools",
+    "Workflow Design",
+    "Risk Utilities"
+  ],
+  "language": "en",
+  "disclaimer": "Educational content only; not investment advice."
+}

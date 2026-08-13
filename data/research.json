@@ -1,0 +1,23 @@
+[
+  {
+    "id": "zerik-research-1",
+    "title": "Execution Toolkit Benchmark",
+    "type": "Research note",
+    "summary": "Twenty-two tools tested across reliability, latency, exportability and learning curve.",
+    "status": "Benchmark v1.2"
+  },
+  {
+    "id": "zerik-research-2",
+    "title": "AI Tool Evaluation Protocol",
+    "type": "Methodology",
+    "summary": "A repeatable scorecard for separating useful automation from persuasive demos.",
+    "status": "Open method"
+  },
+  {
+    "id": "zerik-research-3",
+    "title": "Trader Workflow Map",
+    "type": "Field guide",
+    "summary": "A modular map from market scan to review, designed for small independent desks.",
+    "status": "2026 edition"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "provider": "github-pages",
+  "owner": "trading-tools-lab",
+  "repository": "github.io",
+  "branch": "main",
+  "siteUrl": "https://trading-tools-lab.github.io/github.io/",
+  "basePath": "",
+  "contentSource": "data/articles.json",
+  "reviewRequired": true
+}

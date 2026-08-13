@@ -1,0 +1,90 @@
+[
+  {
+    "id": "platform-stack-2026",
+    "title": "The 2026 Trading Platform Stack: What Actually Improves Execution",
+    "category": "Platform Review",
+    "summary": "A practical comparison of charting, order routing, journaling and alerting tools after a four-week test cycle.",
+    "readTime": "8 min",
+    "date": "2026-08-06",
+    "tags": [
+      "Testing",
+      "Workflow"
+    ],
+    "body": {
+      "intro": "A trading platform stack should reduce the time between noticing a valid setup, placing the intended order and reviewing the result. Adding more software only helps when each tool has a clear job and hands information to the next step without friction.",
+      "heading1": "Measure the handoffs",
+      "section1": "The most revealing tests happen between products: whether a chart alert carries enough context into the order screen, whether fills arrive in the journal without manual repair, and whether the review view can reconstruct the original decision. Reliability at these handoffs matters more than the length of any feature list.",
+      "quote": "A fast tool that creates a slow handoff is still a slow workflow.",
+      "heading2": "Keep the smallest reliable stack",
+      "section2": "Start with execution and risk visibility, then add charting, alerting and journaling only where each layer removes a measured bottleneck. Run the same routine for several sessions, record failures and duplicated work, and remove products whose benefits do not survive normal market conditions.",
+      "close": "The best stack is not the one with the most integrations. It is the one a trader can operate consistently, inspect after the session and simplify when a component stops earning its place."
+    },
+    "status": "published"
+  },
+  {
+    "id": "ai-signal-tools",
+    "title": "AI Signal Tools Under Pressure: A Reproducibility Test",
+    "category": "AI Tools",
+    "summary": "Five products, one dataset and a simple question: do the signals remain useful outside the demo window?",
+    "readTime": "7 min",
+    "date": "2026-07-28",
+    "tags": [
+      "AI",
+      "Benchmarks"
+    ],
+    "body": {
+      "intro": "An AI signal is useful only if its behavior can be examined outside a carefully selected demonstration. A fair comparison therefore begins with the same market, time window, costs and decision rules for every product.",
+      "heading1": "Freeze the test before seeing the result",
+      "section1": "Define the instruments, sampling period and response to each signal in advance. Record late alerts, revised outputs and missing observations instead of quietly removing them. This prevents an attractive chart from replacing the harder question of what a user could actually have known at the time.",
+      "quote": "Reproducibility turns a persuasive signal into a claim that can be tested.",
+      "heading2": "Separate prediction from usability",
+      "section2": "Directional accuracy is only one layer. A signal also needs stable timing, a clear invalidation rule and enough coverage to support the advertised workflow. Compare performance across calm and volatile periods, then check whether small changes to the test window erase the apparent advantage.",
+      "close": "Treat AI output as an input to a documented process, not as a substitute for risk limits or independent judgment."
+    },
+    "status": "published"
+  },
+  {
+    "id": "risk-dashboard",
+    "title": "Build a Risk Dashboard Before Adding Another Indicator",
+    "category": "Tutorial",
+    "summary": "A lightweight portfolio-risk setup that keeps exposure, drawdown and event risk visible throughout the session.",
+    "readTime": "6 min",
+    "date": "2026-07-17",
+    "tags": [
+      "Risk",
+      "Setup"
+    ],
+    "body": {
+      "intro": "Indicators describe the market; a risk dashboard describes the consequences of being wrong. Before adding another entry signal, make current exposure and the day's remaining risk budget visible in one place.",
+      "heading1": "Choose a compact set of controls",
+      "section1": "Track open exposure by instrument and direction, planned loss at each stop, realized and unrealized drawdown, and the next scheduled event that could change liquidity. Use consistent units so positions that look different on a chart can still be compared on the same risk scale.",
+      "quote": "If exposure is difficult to summarize, it is difficult to control.",
+      "heading2": "Make thresholds actionable",
+      "section2": "Every metric should connect to a response: reduce correlated exposure, stop opening new positions, tighten operational checks or end the session. Set those responses before pressure rises, and review whether alerts arrived early enough to change the decision rather than merely document it afterward.",
+      "close": "A useful dashboard stays small, remains visible during execution and makes the next risk decision obvious without adding another source of noise."
+    },
+    "status": "published"
+  },
+  {
+    "id": "journal-comparison",
+    "title": "Trading Journals Compared: Friction, Privacy and Useful Feedback",
+    "category": "Comparison",
+    "summary": "A feature-by-feature review focused on the habits a journal can actually sustain.",
+    "readTime": "9 min",
+    "date": "2026-07-03",
+    "tags": [
+      "Tools",
+      "Review"
+    ],
+    "body": {
+      "intro": "A trading journal is valuable when it captures decisions consistently and returns feedback that changes future behavior. The right comparison starts with daily use, not with the number of charts on the product page.",
+      "heading1": "Count the cost of recording",
+      "section1": "Measure how many fields require manual entry, how reliably trades import and how long corrections take. A sophisticated journal loses value when data cleanup becomes a second job. Export options also matter: users should be able to inspect their own records without depending on a single vendor's interface.",
+      "quote": "The journal that gets completed is more useful than the journal with the longest feature list.",
+      "heading2": "Judge the feedback loop",
+      "section2": "Useful review views connect setup, execution, risk and outcome without pretending every winning trade was good or every losing trade was bad. Check privacy controls, retention rules and sharing defaults before uploading account data, screenshots or written notes.",
+      "close": "Choose the simplest journal that preserves trustworthy records, supports a repeatable weekly review and lets you leave with your data intact."
+    },
+    "status": "published"
+  }
+]

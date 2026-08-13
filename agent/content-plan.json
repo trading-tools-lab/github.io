@@ -1,0 +1,47 @@
+{
+  "cadence": "2 articles and 1 research note per month",
+  "lanes": [
+    {
+      "topic": "Platform Reviews",
+      "priority": 1,
+      "formats": [
+        "explainer",
+        "case study",
+        "research note"
+      ]
+    },
+    {
+      "topic": "AI Trading Tools",
+      "priority": 2,
+      "formats": [
+        "explainer",
+        "case study",
+        "research note"
+      ]
+    },
+    {
+      "topic": "Workflow Design",
+      "priority": 3,
+      "formats": [
+        "explainer",
+        "case study",
+        "research note"
+      ]
+    },
+    {
+      "topic": "Risk Utilities",
+      "priority": 4,
+      "formats": [
+        "explainer",
+        "case study",
+        "research note"
+      ]
+    }
+  ],
+  "workflow": [
+    "draft",
+    "source check",
+    "human review",
+    "publish"
+  ]
+}

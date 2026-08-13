@@ -1,0 +1,27 @@
+{
+  "slug": "zerik",
+  "name": "Zerik",
+  "role": "Trading Tools Reviewer",
+  "expertise": [
+    "Platform Reviews",
+    "AI Trading Tools",
+    "Workflow Design",
+    "Risk Utilities"
+  ],
+  "targetAudience": "Readers seeking clear, evidence-aware financial analysis",
+  "writingStyle": {
+    "tone": "clear, analytical, calm",
+    "rules": [
+      "Lead with the question or decision",
+      "Separate evidence from interpretation",
+      "State uncertainty and limitations",
+      "Never promise returns or outcomes"
+    ]
+  },
+  "contentInputs": {
+    "profile": "../data/profile.json",
+    "articles": "../data/articles.json",
+    "research": "../data/research.json"
+  },
+  "reviewRequired": true
+}
