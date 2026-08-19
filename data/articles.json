@@ -1,5 +1,26 @@
 [
   {
+    "id": "webull-api-and-mcp-tools-a-practical-workflow-for-research-order-history-and-tra",
+    "title": "Webull API and MCP Tools: A Practical Workflow for Research, Order History, and Trading Controls",
+    "category": "Article",
+    "summary": "Webull API is most useful as a controlled trading workflow layer: it can bring market research, account data, watchlists, and execution-related information into one process, but it should not be treated as an autonomous…",
+    "readTime": "2 min",
+    "date": "2026-08-19",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Webull API is most useful as a controlled trading workflow layer: it can bring market research, account data, watchlists, and execution-related information into one process, but it should not be treated as an autonomous profit engine. Its July 2026 updates make the tool more relevant for traders who want to reduce repetitive research and review work while retaining explicit human approval, position limits, and broker-level safeguards.",
+      "heading1": "What changed in the Webull API workflow?",
+      "section1": "The July 25, 2026 changelog says that the Order History interface gained full-query support and removed its two-year limit. Earlier July updates added AI-friendly resources, including a Cloud MCP Server with tools for filings, earnings calendars, cash flow, balance sheets, industry comparisons, market sectors, and financial indicators. This combination is valuable because a research assistant can assemble context from structured data while a trader still verifies the source and decides whether any action is appropriate.",
+      "quote": "",
+      "heading2": "How does Webull compare with a conventional broker API or an automation bot?",
+      "section2": "A conventional broker API is best when a developer needs direct control over account, order, and market-data calls. A rule-based automation platform is best when a trader wants a visual strategy builder and predefined conditions. Webull's MCP-oriented approach sits between them: it can expose research and account functions to compatible AI assistants while preserving API-level integration. The practical test is not whether a tool uses AI, but whether it provides reliable data access, clear permissions, observable order status, and a workflow that can be paused before execution.</p><p><strong>What is the safest way to use an AI-connected trading workflow?</strong></p><p>Start with read-only research tasks: summarize filings, compare watchlist names, retrieve historical order activity, and identify questions for manual review. Next, test the connection in a sandbox before handling live orders; Webull migrated sandbox API hosts in July 2026, so teams should validate current endpoints and authentication settings. For any live workflow, keep position-size limits, permitted instruments, order-type restrictions, duplicate-order checks, and a final human confirmation outside the AI prompt. Measure efficiency by fewer manual handoffs and clearer audit trails, not by promises of market-beating performance.</p><p><img src=\"assets/github-webull-api-and-mcp-tools-a-practical-workflow-for-research-order-history-and-tra-1.png\" alt=\"\" loading=\"lazy\">",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "interactive-brokers-mcp-ai-integration-how-to-use-human-approved-ai-research-wit",
     "title": "Interactive Brokers MCP AI Integration: How to Use Human-Approved AI Research Without Handing an Agent Trade Execution",
     "category": "Article",
