@@ -1,5 +1,26 @@
 [
   {
+    "id": "how-to-build-a-safer-ai-assisted-trading-workflow-with-the-public-api-and-mcp",
+    "title": "How to Build a Safer AI-Assisted Trading Workflow with the Public API and MCP",
+    "category": "Article",
+    "summary": "The practical value of an AI-connected brokerage API is not autonomous trading. It is faster research, better instrument selection, and a more structured review before an order is submitted. Public updated its hosted MCP…",
+    "readTime": "2 min",
+    "date": "2026-08-20",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "The practical value of an AI-connected brokerage API is not autonomous trading. It is faster research, better instrument selection, and a more structured review before an order is submitted. Public updated its hosted MCP server setup guidance on August 11, 2026 and added bond search and bond-details endpoints on August 5. Together, those updates support a workflow in which an assistant can gather portfolio context and fixed-income data while the trader keeps control of the final action.",
+      "heading1": "What changed in the Public API workflow?",
+      "section1": "The August 11 update added step-by-step hosted MCP server setup instructions for Claude Code, covering connector setup, authentication, and terminal verification. On August 5, Public added Search bonds and Get bond details endpoints. The search endpoint supports filtering, sorting, and pagination, while bond details include pricing, ratings, and maturity information. These tools can reduce the manual work of moving between a portfolio view, an instrument screener, and a bond research page.",
+      "quote": "",
+      "heading2": "How should an AI assistant be used before a trade?",
+      "section2": "Use the assistant for read, compare, and explain tasks first. A disciplined sequence is: retrieve permitted account context, search for instruments that meet stated criteria, inspect bond details, identify missing information, and prepare a concise order rationale. Keep the order ticket as a separate final step. This design makes it easier to spot a mismatch between an instrument, portfolio exposure, maturity profile, or stated objective before money is committed.</p><p><img src=\"assets/github-how-to-build-a-safer-ai-assisted-trading-workflow-with-the-public-api-and-mcp-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Which controls preserve trading efficiency without weakening oversight?</strong></p><p>Use scoped authentication, limit the data and actions available to each integration, and preserve a reviewable record of the research inputs. Confirm that the connector is the official hosted service, verify account scope during authentication, and separate research permissions from trade placement whenever possible. The Public changelog also notes that tax-lot selection became available through the API on July 20, 2026. That is useful for execution planning, but it also increases the need to review the proposed sale instructions before submission. Efficient automation should shorten repetitive research, not remove accountability for risk, tax, or execution decisions.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "webull-api-and-mcp-tools-a-practical-workflow-for-research-order-history-and-tra",
     "title": "Webull API and MCP Tools: A Practical Workflow for Research, Order History, and Trading Controls",
     "category": "Article",
