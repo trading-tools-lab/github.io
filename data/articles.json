@@ -1,5 +1,26 @@
 [
   {
+    "id": "bestex-pulse-ai-what-the-new-trading-analytics-tool-means-for-execution-workflow",
+    "title": "BestEx Pulse AI: What the New Trading Analytics Tool Means for Execution Workflow",
+    "category": "Article",
+    "summary": "BestEx Pulse AI is most useful as an institutional execution-analysis interface, not as an autonomous trading system: it lets buy-side teams ask conversational questions about liquidity, expected trading cost, market…",
+    "readTime": "3 min",
+    "date": "2026-08-21",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "BestEx Pulse AI is most useful as an institutional execution-analysis interface, not as an autonomous trading system: it lets buy-side teams ask conversational questions about liquidity, expected trading cost, market conditions, and execution quality using BestEx Research's analytics and realized market data. Announced on August 6, 2026, the tool can reduce the manual work of assembling pre-trade analysis for global futures, while its broker-neutral post-trade transaction cost analysis is planned for Q1 2027.</p><p><img src=\"assets/github-bestex-pulse-ai-what-the-new-trading-analytics-tool-means-for-execution-workflow-1.png\" alt=\"\" loading=\"lazy\">",
+      "heading1": "What does BestEx Pulse AI do today?",
+      "section1": "The live capability is Pulse AI Pre-Trade for global futures. According to BestEx Research, traders can investigate when an instrument is typically most liquid, how spread and depth behave, how scheduled economic events affect the order book, how a position may be worked at different participation rates, and the expected cost of trading at different speeds. The practical value is workflow compression: a trader or quant can move from a natural-language question to an interpreted analysis and supporting visualization without first extracting, cleaning, and modeling the data by hand.",
+      "quote": "",
+      "heading2": "Who should consider Pulse AI, and who should not?",
+      "section2": "Pulse AI is designed for institutional buy-side trading desks, quants, and portfolio managers working across execution algorithms and transaction-cost analysis. It is especially relevant where a desk must turn large volumes of liquidity and execution data into a defensible trading plan. It is not presented as a retail brokerage tool, a signal generator, or a guarantee of lower costs. Teams should treat its outputs as decision support and retain their own controls for order approval, risk limits, data governance, and model validation.</p><p><strong>How does it compare with a traditional execution analytics workflow?</strong></p><p>A traditional workflow often splits analysis across data extracts, specialist models, dashboards, and periodic broker reports. BestEx's approach puts a conversational layer on top of its processed algorithm inputs and execution cost model. That can make investigation faster, but the trade-off is important: the usefulness of an answer depends on the scope, freshness, and methodology of the underlying data. Buyers should ask which products, venues, market regimes, and execution assumptions are represented before relying on an output for a meaningful order.</p><p><strong>Why is broker-neutral post-trade analysis the key feature to watch?</strong></p><p>BestEx says broker-neutral Post-Trade TCA is scheduled for Q1 2027. This matters because brokers commonly report only the flow they executed and may use different measurement methods. A single methodology across brokers could make it easier for a buy-side desk to compare execution performance, identify where an algorithm performed well or poorly, and test whether a different configuration could reduce cost. Until that capability is available, firms should distinguish clearly between the live futures pre-trade tool and the future post-trade offering.</p><p><strong>What is the practical next step for a trading team?</strong></p><p>Start with a narrow evaluation: choose a recurring futures workflow, define the questions that currently consume analyst time, and compare Pulse AI's answers against the desk's established analytics. Review access controls, auditability, data coverage, and how outputs fit the order-approval process. The broader industry trend is clear: AI interfaces are moving trading analytics closer to the moment of decision, but execution efficiency still depends on transparent inputs, disciplined human oversight, and measurable post-trade review.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "how-to-build-a-safer-ai-assisted-trading-workflow-with-the-public-api-and-mcp",
     "title": "How to Build a Safer AI-Assisted Trading Workflow with the Public API and MCP",
     "category": "Article",
