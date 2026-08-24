@@ -1,5 +1,26 @@
 [
   {
+    "id": "webull-openapi-august-2026-update-build-more-reliable-trading-automation-with-th",
+    "title": "Webull OpenAPI August 2026 Update: Build More Reliable Trading Automation with the New CLI and Execution APIs",
+    "category": "Article",
+    "summary": "Webull OpenAPI's August 2026 updates are most useful for traders and developers who want to reduce manual reconciliation and make automated workflows easier to operate. The key additions are Webull CLI, a Query Order…",
+    "readTime": "3 min",
+    "date": "2026-08-24",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Webull OpenAPI's August 2026 updates are most useful for traders and developers who want to reduce manual reconciliation and make automated workflows easier to operate. The key additions are Webull CLI, a Query Order Executions endpoint, and clearer event and order-field guidance. Together, they support a practical workflow: use structured commands for research and operations, capture executions as the record of what happened, and treat changing order fields as a versioned integration contract rather than fixed assumptions.",
+      "heading1": "What changed in the Webull API changelog?",
+      "section1": "On August 8, 2026, Webull added Webull CLI, a single-binary Go command-line tool for structured OpenAPI access. The documentation says it covers Hong Kong stocks, US stocks and ETFs, US options, and A-shares through Stock Connect; it can emit JSON or CSV and supports AK/SK authentication with 2FA, multiple profiles, and automation-oriented use in scripts, AI-agent workflows, and CI. The same update added Query Order Executions, allowing an account's historical executions to be filtered by date range or client order ID. Webull also added an initial-margin field to Account Balance and an instrument sub-category filter.</p><p><img src=\"assets/github-webull-openapi-august-2026-update-build-more-reliable-trading-automation-with-th-1.png\" alt=\"\" loading=\"lazy\">",
+      "quote": "",
+      "heading2": "How should a trading workflow use the new execution endpoint?",
+      "section2": "Use Query Order Executions as the reconciliation layer, not as a signal generator. Assign every submitted order a stable client order ID, subscribe to trade events for timely status changes, then query executions after the trading window to confirm fills, quantities, and any partial-execution outcomes. Store the raw response with the strategy run and broker-side timestamp available in the current schema. This creates a simple audit trail that separates an intended order from an executed trade, which is essential when an automated strategy is retried, amended, or interrupted.</p><p><strong>Why do deprecated order fields matter for automation reliability?</strong></p><p>Webull marked the Get Order Detail fields place_time and fill_time as deprecated on August 20, 2026. They remain available for backward compatibility, but new integrations should not depend on them. A robust migration starts by locating every dashboard, database transform, alert, and backtest-import job that reads those fields. Replace implicit assumptions with a documented execution-state model, test it against filled, cancelled, and modified orders, and retain a short dual-read period so the old and revised logic can be compared before production cutover.</p><p><strong>Which Webull CLI workflow is worth testing first?</strong></p><p>Start with a read-focused daily operations workflow: retrieve the watchlist or market inputs your process already uses, run the strategy outside the execution path, submit only approved orders through the established integration, and export CLI outputs to JSON or CSV for review. Use separate profiles for development and live environments, keep credentials out of scripts, and require a human approval point for any workflow that can place orders. The CLI can reduce context switching, but it does not remove market, execution, authentication, or operational risk.</p><p><strong>The practical takeaway for trading-tool builders</strong></p><p>The August changelog signals a broader trading-technology pattern: useful automation depends less on a single AI or command-line interface than on trustworthy connections between research, order submission, event monitoring, and post-trade records. For Webull OpenAPI users, the highest-value next step is to prototype an execution-reconciliation job keyed by client order ID, then update data models before deprecated fields become a hidden point of failure. Measure success by fewer manual checks and clearer exception handling, not by trading volume.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "bestex-pulse-ai-what-the-new-trading-analytics-tool-means-for-execution-workflow",
     "title": "BestEx Pulse AI: What the New Trading Analytics Tool Means for Execution Workflow",
     "category": "Article",
