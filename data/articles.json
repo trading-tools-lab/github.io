@@ -1,5 +1,26 @@
 [
   {
+    "id": "webull-ai-toolkit-review-which-vega-and-mcp-features-improve-trading-workflow",
+    "title": "Webull AI Toolkit Review: Which Vega and MCP Features Improve Trading Workflow?",
+    "category": "Article",
+    "summary": "Webull's AI toolkit is most useful as a workflow layer, not as an autopilot for investment decisions. As of Webull's August 20, 2026 overview, Vega handles in-app market and portfolio context, Vega Analyst builds…",
+    "readTime": "3 min",
+    "date": "2026-08-27",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Webull's AI toolkit is most useful as a workflow layer, not as an autopilot for investment decisions. As of Webull's August 20, 2026 overview, Vega handles in-app market and portfolio context, Vega Analyst builds configurable single-stock reports, and the MCP server connects external AI assistants to Webull OpenAPI. The practical gain is faster research, review, and order preparation; the non-negotiable control is still verifying every order before it is sent.</p><p><img src=\"assets/github-webull-ai-toolkit-review-which-vega-and-mcp-features-improve-trading-workflow-1.png\" alt=\"\" loading=\"lazy\">",
+      "heading1": "What does each Webull AI tool actually do?",
+      "section1": "Vega is the broad, free decision-support layer for Webull's U.S. customers. It provides data summaries, portfolio review, watchlist and portfolio insights, unusual-options activity signals, and plain-language order entry with interpreted details shown before confirmation. Vega Analyst is narrower and deeper: users select lenses such as fundamentals, valuation, technical trends, market context, or risk, then generate a modular real-time stock report. Webull says Vega Analyst uses a paid credit system, with a limited number of free reports.",
+      "quote": "",
+      "heading2": "How does Webull MCP change the trading workflow?",
+      "section2": "Webull's Model Context Protocol server is the integration layer for natural-language access to Webull OpenAPI. Webull says connected AI agents can query market data, balances, positions, and order history, and can place or modify orders. The company also lists official connectors for Claude, ChatGPT, and Grok, using OAuth so account credentials remain with Webull. For an active trader, this can replace repeated navigation across charts, account views, and order tickets with a structured request and a review step.</p><p><strong>Which feature should a trader use first?</strong></p><p>Start with Vega if the bottleneck is keeping up with market context and portfolio changes. Use Vega Analyst when a trade idea needs a defined research brief on one company rather than a generic summary. Consider MCP and an external assistant only after you have a repeatable checklist for data requests, position limits, order types, and confirmations. That sequence preserves efficiency without handing strategy judgment to a conversational interface.</p><p><strong>What are the limits of AI-assisted trading on Webull?</strong></p><p>AI-generated analysis can be incomplete, delayed, or wrong, and plain-language prompts can be interpreted incorrectly. Webull describes its AI tools as informational and educational rather than investment advice, and specifically warns that connected agents may misinterpret instructions or operate on delayed data. A sound operating rule is to use AI for summarization and preparation, then independently check the symbol, side, quantity, order type, limit price, time-in-force, buying power, and open positions before executing.</p><p><strong>The practical takeaway for trading efficiency</strong></p><p>Webull is moving from a broker app with isolated AI features toward an AI-connected trading workspace. The strongest use case is not asking an assistant what to buy; it is shortening the path from a question to verifiable account and market information. Build a small prompt library for portfolio review, catalyst research, and order validation, keep human approval at the execution boundary, and treat the MCP connection as a productivity tool with trading-risk controls.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "webull-openapi-august-2026-update-build-more-reliable-trading-automation-with-th",
     "title": "Webull OpenAPI August 2026 Update: Build More Reliable Trading Automation with the New CLI and Execution APIs",
     "category": "Article",
