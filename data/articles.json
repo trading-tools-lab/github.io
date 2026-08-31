@@ -1,5 +1,26 @@
 [
   {
+    "id": "metatrader-5-build-6140-how-its-expanded-ai-assistant-can-improve-trading-develo",
+    "title": "MetaTrader 5 Build 6140: How Its Expanded AI Assistant Can Improve Trading Development Workflows",
+    "category": "Article",
+    "summary": "MetaTrader 5 Build 6140 is most useful as a trading-development productivity update, not as a shortcut to better trade decisions. Released by MetaQuotes on August 20, 2026, it expands the platform's AI Assistant with…",
+    "readTime": "3 min",
+    "date": "2026-08-31",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "MetaTrader 5 Build 6140 is most useful as a trading-development productivity update, not as a shortcut to better trade decisions. Released by MetaQuotes on August 20, 2026, it expands the platform's AI Assistant with additional large language model providers, improves MCP tool operation, and adds a Strategy Tester stop tool. For traders and developers, the practical value is faster research, coding, debugging, and test control while retaining human responsibility for strategy logic, risk limits, and order approval.",
+      "heading1": "What changed in MetaTrader 5 Build 6140?",
+      "section1": "Build 6140 adds support for a wider range of LLM providers in the MetaTrader 5 AI Assistant, including Alibaba, Atomic Chat, Bitdeer AI, Cerebras, and z.ai. Users connect a provider through the platform settings with that provider's API key. MetaQuotes also added AI chat deletion, optimized MCP tools, and introduced a tool to stop the Strategy Tester. The built-in MQL5.community AI provider's context window was reduced from 1 million to 500,000 tokens, which MetaQuotes says remains sufficient for large projects and extended agent conversations.",
+      "quote": "",
+      "heading2": "How can the AI Assistant improve a trading workflow?",
+      "section2": "The strongest workflow is to use the assistant for bounded technical tasks: explain an MQL5 function, draft a small indicator change, identify a compilation error, summarize a backtest configuration, or help document a strategy. Then compile, inspect the generated logic, run controlled tests, and compare results with an independent baseline. The new Strategy Tester stop control matters because it gives developers a clearer way to interrupt an unproductive run instead of waiting for a long optimization or test cycle to finish.</p><p><img src=\"assets/github-metatrader-5-build-6140-how-its-expanded-ai-assistant-can-improve-trading-develo-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Which controls should remain outside the AI workflow?</strong></p><p>Keep market assumptions, position sizing, maximum loss rules, broker selection, and live-order authority under explicit human controls. An LLM can produce plausible but incorrect MQL5 code or reasoning, and a clean backtest can still fail when spreads, slippage, liquidity, or regime changes differ from historical assumptions. Build 6140 also fixes a pending-order issue in which modifying Stop Loss and Take Profit through the AI Assistant could incorrectly reset an existing order expiration time. That fix is useful, but it also reinforces the need to verify every order field before submitting or modifying a live order.</p><p><strong>How does MetaTrader 5 compare with a standalone AI chat tool?</strong></p><p>A standalone AI chat tool can help write or explain trading code, but MetaTrader 5's integrated assistant is closer to the platform context where code, testing, charts, and platform actions occur. Its multi-provider support gives users more model choice for market analysis, development, or application work. The trade-off is governance: API keys, prompts, exported data, and tool permissions should be managed carefully. Integration reduces context switching; it does not remove the need for source review, version control, test records, and a staged paper-to-live deployment process.</p><p><strong>A practical next step for MetaTrader 5 users</strong></p><p>Start with a non-production task. Connect one approved provider, ask the assistant to explain an existing MQL5 module, request a narrowly scoped change, and test it in the Strategy Tester. Record the prompt, code diff, test settings, and outcome. If the result is repeatable, move to demo trading with fixed risk limits before considering live use. This approach turns MetaTrader 5 Build 6140 into an efficiency layer for disciplined trading development rather than an opaque decision engine.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "webull-ai-toolkit-review-which-vega-and-mcp-features-improve-trading-workflow",
     "title": "Webull AI Toolkit Review: Which Vega and MCP Features Improve Trading Workflow?",
     "category": "Article",
