@@ -1,5 +1,26 @@
 [
   {
+    "id": "public-mcp-with-claude-desktop-a-safer-workflow-for-ai-assisted-trading",
+    "title": "Public MCP with Claude Desktop: A Safer Workflow for AI-Assisted Trading",
+    "category": "Article",
+    "summary": "Public's August 20, 2026 guide shows that Claude Desktop can connect to a Public brokerage account through the Model Context Protocol (MCP) to retrieve live market information, review holdings, run order preflight…",
+    "readTime": "3 min",
+    "date": "2026-09-01",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Public's August 20, 2026 guide shows that Claude Desktop can connect to a Public brokerage account through the Model Context Protocol (MCP) to retrieve live market information, review holdings, run order preflight checks, and submit orders. The efficiency gain is real, but the practical value comes from using the assistant as a structured workflow layer: research first, verify the proposed order, then make the final trading decision yourself.",
+      "heading1": "What does Public MCP let Claude Desktop do for traders?",
+      "section1": "Public's official MCP connection exposes brokerage functions inside a Claude Desktop conversation. According to the guide, users can request quotes, bid-ask spreads, options chains, option Greeks, portfolio data, open orders, and order history. It also supports market, limit, stop, and stop-limit orders for stocks, ETFs, and options, plus crypto trading and native multi-leg options orders such as vertical spreads, iron condors, and covered calls.",
+      "quote": "",
+      "heading2": "How should an AI-assisted trade move from idea to order?",
+      "section2": "Use a four-stage routine: define the thesis and maximum risk outside the chat, ask Claude for the relevant live data, request a preflight check, and review every order field before confirmation. A preflight should be treated as a control point, not a formality: confirm the symbol, side, quantity, order type, limit price where applicable, estimated cost, buying-power effect, and multi-leg structure. This sequence reduces transcription work while keeping accountability with the trader.</p><p><img src=\"assets/github-public-mcp-with-claude-desktop-a-safer-workflow-for-ai-assisted-trading-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Why is the local MCP setup important?</strong></p><p>Public states that its Claude Desktop setup runs locally on a Mac or PC: the MCP server process and API calls operate from the user's machine, while the API key and account identifier are stored in the local Claude configuration file. That design can reduce unnecessary credential movement, but it also makes endpoint security essential. Keep credentials out of shared files, use a protected user account, rotate keys when exposure is suspected, and never paste secrets into a prompt or message.</p><p><strong>Where does Claude Desktop improve trading efficiency most?</strong></p><p>The strongest use case is compressing repetitive context gathering into one auditable conversation. A trader can inspect an options chain, ask for the Greeks of a selected contract, compare a proposed spread with an existing position, and run preflight before submitting a single order. This is especially useful when decisions require several data lookups, but it does not turn an AI-generated explanation into investment advice or remove the risks of price changes, liquidity, assignment, or an unfilled order.</p><p><strong>What should traders verify before enabling execution?</strong></p><p>Start with the smallest possible scope: read-only portfolio and quote requests, then simulated or low-risk workflows if available, then a deliberately reviewed live order. Confirm which assets and account types are eligible, test how the tool reports rejected or partially filled orders, and create a rule that execution always requires explicit human confirmation. Public describes its API as supporting stocks, ETFs, options, index options, crypto, and certain IRA accounts, but availability, fees, and account permissions can change and should be checked in the current brokerage documentation before trading.</p><p>The broader industry trend is not that AI replaces trading judgement; it is that broker APIs are becoming interfaces for agentic workflows. The durable advantage is a disciplined operating model: trusted live data, constrained permissions, an explicit preflight step, and a human who understands the position before an order reaches the market. That is how Claude Desktop and Public MCP can improve execution workflow without outsourcing risk ownership.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "metatrader-5-build-6140-how-its-expanded-ai-assistant-can-improve-trading-develo",
     "title": "MetaTrader 5 Build 6140: How Its Expanded AI Assistant Can Improve Trading Development Workflows",
     "category": "Article",
