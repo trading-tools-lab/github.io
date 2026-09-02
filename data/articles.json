@@ -1,5 +1,26 @@
 [
   {
+    "id": "scalable-capital-agentic-investing-how-ai-assistants-can-streamline-trading-work",
+    "title": "Scalable Capital Agentic Investing: How AI Assistants Can Streamline Trading Workflows With Human Approval",
+    "category": "Article",
+    "summary": "Hello, I am Zerik. Scalable Capital's Agentic Investing is a practical example of where AI trading tools are heading: an assistant can reduce the time spent finding instruments, reviewing portfolio context, preparing…",
+    "readTime": "3 min",
+    "date": "2026-09-02",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Hello, I am Zerik. Scalable Capital's Agentic Investing is a practical example of where AI trading tools are heading: an assistant can reduce the time spent finding instruments, reviewing portfolio context, preparing orders, and monitoring alerts, but the investor remains responsible for approval and risk decisions. Announced in Munich on August 25, 2026, the service connects a client's Scalable Capital account to supported AI assistants for activities including trading, savings plans, watchlists, price alerts, news, market data, and portfolio analysis.",
+      "heading1": "What does Agentic Investing change in a trading workflow?",
+      "section1": "The main change is workflow compression. Instead of moving separately through a broker app to search an ETF, inspect holdings, compare a portfolio, set an alert, and prepare an order, a client can express the task in natural language. Scalable Capital says its system supports native search across stocks, ETFs, and derivatives, while Scalable Insights can provide diversification checks, scenario analysis, sector and region breakdowns, and risk assessments. That can make research and portfolio administration faster, especially when the request has a clear scope and the output is reviewed before action.",
+      "quote": "",
+      "heading2": "How are trade permissions and investor control handled?",
+      "section2": "The useful distinction is between preparation and execution. Scalable Capital requires users to activate Agentic Investing in Profile &gt; Security, authenticate with their Scalable credentials, and confirm through two-factor authentication initially and at regular intervals. Before a securities transaction, the platform provides the usual pre-trade cost information or Key Information Document and requires explicit confirmation. Clients can monitor activity in real time, deactivate the connection, and still use the web or app for deposits and withdrawals. The company's disclosure also makes clear that third-party AI applications operate independently and that AI outputs are not investment advice.</p><p><img src=\"assets/github-scalable-capital-agentic-investing-how-ai-assistants-can-streamline-trading-work-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Which tasks are best suited to an AI-assisted brokerage connection?</strong></p><p>Start with repeatable, auditable tasks rather than open-ended trading prompts. Good examples include creating a portfolio dashboard, exporting defined transaction data to CSV, checking concentration by sector, drafting a savings-plan order, or preparing a limit-order change for review. A disciplined workflow is to define the requested data, inspect the assistant's interpretation, verify prices and order details in the brokerage interface, and explicitly approve only what matches the intended plan. This approach improves trading efficiency without outsourcing judgment.</p><p><strong>How does this compare with a conventional brokerage app?</strong></p><p>A conventional app is optimized for screens, menus, and manual navigation. Agentic Investing adds a conversational layer and technical interfaces for external AI applications: Scalable Capital provides both a command-line application for local AI assistants and models, and a Model Context Protocol server. The potential advantage is fewer handoffs between research, analysis, and order preparation. The trade-off is that users must manage permissions carefully, understand what data an external assistant can access, and treat every generated interpretation as a starting point for verification rather than a recommendation.</p><p><strong>What should investors do next?</strong></p><p>Evaluate AI-enabled brokerage tools by their controls, not only by their prompts. Check whether access can be limited or revoked, whether trade approval is explicit, whether account activity is visible, and whether the tool keeps research, recommendations, and execution clearly separated. Scalable Capital's August 2026 launch points to a broader industry trend: AI is becoming an interface for investment workflows, while trustworthy implementation still depends on permission design, transparent pre-trade checks, and an investor who stays in control.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "public-mcp-with-claude-desktop-a-safer-workflow-for-ai-assisted-trading",
     "title": "Public MCP with Claude Desktop: A Safer Workflow for AI-Assisted Trading",
     "category": "Article",
