@@ -1,5 +1,26 @@
 [
   {
+    "id": "ibridgepy-trading-automation-5-reliability-fixes-for-faster-safer-order-workflow",
+    "title": "IBridgePy Trading Automation: 5 Reliability Fixes for Faster, Safer Order Workflows",
+    "category": "Article",
+    "summary": "Hello, I am Zerik. The fastest way to improve an IBridgePy trading workflow is not to add more signals; it is to make order state, event handling, and computation reliable. The August 26, 2026 IBridgePy guide identifies…",
+    "readTime": "2 min",
+    "date": "2026-09-07",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Hello, I am Zerik. The fastest way to improve an IBridgePy trading workflow is not to add more signals; it is to make order state, event handling, and computation reliable. The August 26, 2026 IBridgePy guide identifies five recurring failures that can leave an automated strategy using incomplete fill data, sending orders before the connection is ready, or missing market events while code is blocked.",
+      "heading1": "Why do fixed waits create unreliable order handling?",
+      "section1": "A fixed time.sleep() after submitting an order is a poor substitute for confirmation because it blocks the thread while Interactive Brokers messages wait in the queue. IBridgePy's order_status_monitor() is the more dependable workflow: wait for a defined status and timeout, then read the order's average fill price. This makes the next step depend on an observed broker event rather than an arbitrary number of seconds.",
+      "quote": "",
+      "heading2": "Which order status should an automated strategy treat as complete?",
+      "section2": "For a market order, Submitted confirms that the broker received the order, not that it executed. Use Filled before treating a position as established and before relying on its fill price. For limit orders, monitor the states that match the strategy's decision path, then explicitly handle filled, cancelled, and rejected outcomes. An order disappearing from get_open_orders() is not proof of execution; inspect the specific order object instead.</p><p><img src=\"assets/github-ibridgepy-trading-automation-5-reliability-fixes-for-faster-safer-order-workflow-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>How should IBridgePy strategies separate setup, execution, and analysis?</strong></p><p>Keep initialize() for configuration and state setup, then place orders only after the connection is established in handle_data() or a scheduled function. Put expensive work such as a model run across thousands of tickers before the market opens with schedule_function(), or move it to a separate process that returns a prepared signal. The execution loop should stay short enough to process price updates and broker callbacks promptly.</p><p><strong>What is the practical reliability checklist before live deployment?</strong></p><p>Test the full status path in a paper environment: submit, acknowledge, fill or cancel, position update, and recovery after a timeout. Record order IDs, statuses, timestamps, and errors with debug logging so a failure is diagnosable rather than mysterious. IBridgePy can help automate rule-based strategies with Interactive Brokers, but its own guidance stresses that users should understand the source and validate behavior before actual trading. The useful industry lesson is clear: trading automation efficiency comes from event-driven controls and observable state, not from making a loop run faster.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "metatrader-5-build-6180-review-is-the-ai-assistant-becoming-a-real-trading-workf",
     "title": "MetaTrader 5 Build 6180 Review: Is the AI Assistant Becoming a Real Trading Workflow Tool?",
     "category": "Article",
