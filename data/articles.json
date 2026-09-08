@@ -1,5 +1,26 @@
 [
   {
+    "id": "how-fyers-fia-and-smart-charts-can-streamline-a-rules-based-trading-workflow",
+    "title": "How FYERS FIA and Smart Charts Can Streamline a Rules-Based Trading Workflow",
+    "category": "Article",
+    "summary": "Hi, I'm Zerik. FYERS' August 31, 2026 product recap shows a practical shift in trading-tool design: FIA, Smart Charts, Smart Screener, and FYERS Automate can reduce the manual work between an idea, a market scan, a…",
+    "readTime": "3 min",
+    "date": "2026-09-08",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "Hi, I'm Zerik. FYERS' August 31, 2026 product recap shows a practical shift in trading-tool design: FIA, Smart Charts, Smart Screener, and FYERS Automate can reduce the manual work between an idea, a market scan, a backtest, and a controlled workflow. The useful outcome is not an automatic trading promise; it is a more repeatable process in which the trader still defines the rules, reviews the logic, and decides whether to deploy it.",
+      "heading1": "Context",
+      "section1": "<strong>What did FYERS add for trading workflow efficiency?</strong><strong></strong></p><p>FYERS added FIA inside FYERS Automate, allowing users to describe a strategy in plain English and receive help creating, modifying, or explaining a workflow before backtesting. The update also introduced Order Flow on Smart Charts, Smart Screener on FYERS Web, AI Actions for chart and options analysis, and dynamic Screener Symbols and Watchlist Symbols for Automate. Together, these tools connect discovery, analysis, and execution preparation more closely than a workflow built from disconnected screens.</p><p><strong>How can a trader use FIA without turning it into a black box?</strong><strong></strong></p><p>Start with a precise trading hypothesis, not a vague request. State the instrument universe, the entry condition, the exit condition, the position-sizing rule, and the time window. Use FIA to translate that idea into an Automate workflow, then inspect every trigger and condition before backtesting. FYERS says the tool can help users move from a plain-English strategy description to a workflow and backtest, but the trader should treat the output as a draft specification that requires review.</p><p><img src=\"assets/github-how-fyers-fia-and-smart-charts-can-streamline-a-rules-based-trading-workflow-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Which FYERS tools solve the biggest handoff problems?</strong><strong></strong></p><p>Smart Screener addresses the search step by combining fundamentals, price and volume, technical indicators, open interest, buildups, implied volatility, and Greeks. Smart Charts adds Order Flow tools including Clusters, Delta, Cumulative Delta, Imbalances, Volume Profile, and VWAP for examining activity behind a price move. FYERS Automate can then use symbols from saved screeners or watchlists instead of a fixed manually maintained list. This is valuable when a strategy depends on a changing momentum, options, or derivatives universe.</p><p><strong>What controls should be checked before automation?</strong><strong></strong></p><p>Validate the selection logic first, then constrain when the workflow is allowed to act. FYERS' new Time Check and Days to Expiry triggers can limit a workflow to a stated time of day or to a defined futures or options expiry window. Check that the screener criteria, contract selection, trigger timing, and backtest assumptions match the written plan. A workflow that is easy to create can still be wrong if its data inputs, liquidity assumptions, or risk limits are not reviewed.</p><p><strong>The practical takeaway for active traders</strong><strong></strong></p><p>FYERS' August release is most useful as a workflow stack: screen for candidates, investigate context on charts and options tools, turn a written rule into a testable workflow, and use time and expiry constraints to keep the process disciplined. The industry trend is toward AI-assisted trading interfaces that compress these handoffs. The durable advantage remains operational clarity: document the rule, test it, monitor it, and retain responsibility for every live decision.",
+      "quote": "",
+      "heading2": "Further developments",
+      "section2": "",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "ibridgepy-trading-automation-5-reliability-fixes-for-faster-safer-order-workflow",
     "title": "IBridgePy Trading Automation: 5 Reliability Fixes for Faster, Safer Order Workflows",
     "category": "Article",
