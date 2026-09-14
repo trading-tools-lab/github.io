@@ -1,5 +1,26 @@
 [
   {
+    "id": "metatrader-5-build-6180-how-the-expanded-ai-assistant-can-speed-up-strategy-test",
+    "title": "MetaTrader 5 Build 6180: How the Expanded AI Assistant Can Speed Up Strategy Testing",
+    "category": "Article",
+    "summary": "MetaTrader 5 Build 6180 is most useful as a strategy-testing workflow assistant, not as a substitute for trading judgment. The September 3, 2026 update lets the platform's AI Assistant retrieve tester reports and logs…",
+    "readTime": "3 min",
+    "date": "2026-09-14",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "MetaTrader 5 Build 6180 is most useful as a <strong>strategy-testing workflow assistant</strong>, not as a substitute for trading judgment. The September 3, 2026 update lets the platform's AI Assistant retrieve tester reports and logs, check current test settings, help configure optimization, and add chart indicators. For traders who already work with Expert Advisors, those capabilities can reduce the time spent locating results, validating setup details, and diagnosing failed tests.</p><p><img src=\"assets/github-metatrader-5-build-6180-how-the-expanded-ai-assistant-can-speed-up-strategy-test-1.png\" alt=\"\" loading=\"lazy\">",
+      "heading1": "What changed in MetaTrader 5 Build 6180?",
+      "section1": "The <a href=\"https://www.metatrader.com/en/news/metaquotes/3986097-new-metatrader-5-platform-build-6180-more-ai-features\">MetaTrader 5 Build 6180</a> update expands the AI Assistant inside the terminal and Strategy Tester. It can retrieve testing and optimization results, inspect the selected Expert Advisor, symbol, period, and other tester settings, and read tester plus terminal logs. It can also add and configure indicators on a chart, including a moving-average setup. These are practical actions around analysis and configuration, rather than an announced feature that independently selects or places trades.",
+      "quote": "",
+      "heading2": "How can traders use the AI Assistant to improve testing efficiency?",
+      "section2": "Use it to shorten the handoffs in a repeatable research loop: confirm the test configuration, run or prepare an optimization, review the resulting passes, then inspect logs when results look inconsistent. A useful prompt asks for a comparison of optimization passes against predefined criteria such as drawdown, trade count, or stability across periods. The decision rule must still come from the trader; the assistant's value is making the relevant report, setting, and error information easier to inspect in one workflow.</p><p><strong>Where does this tool fit compared with AI-native trading interfaces?</strong></p><p>Build 6180 is oriented toward the existing MetaTrader development and testing stack, so it is strongest for traders who already use Expert Advisors and Strategy Tester. By contrast, Sterling Trading Tech's <a href=\"https://www.globenewswire.com/news-release/2026/09/10/3359187/0/en/sterling-trading-tech-launches-strider.html\">STRIDER</a> launch emphasizes browser and mobile access, real-time risk visibility, and interoperability with an institutional OMS. The distinction matters: MetaTrader's new assistant helps compress research and debugging work, while a platform such as STRIDER is positioned around connected execution, portfolio information, and device-flexible workflows.</p><p><strong>What should a trader verify before relying on AI-assisted optimization?</strong></p><p>Start with a demo or non-production research process. Record the Expert Advisor version, instrument, timeframe, date range, spread assumptions, and optimization objective before asking the assistant to analyze results. Then test promising configurations on out-of-sample data and review the logs for execution or data problems. This discipline is especially important because a clean-looking backtest can still reflect overfitting, missing costs, or fragile parameters.</p><p>The broader industry trend is clear: AI is moving from a separate chat window into the tools that traders use to research, test, monitor, and execute. The durable advantage will not come from asking an assistant for a market prediction. It will come from building a <strong>verifiable workflow</strong> in which every AI-generated observation can be checked against settings, reports, market data, risk limits, and the trader's own",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "stridertm-review-what-sterlings-ai-powered-web-and-mobile-trading-launch-really",
     "title": "STRIDER™ Review: What Sterling’s AI-Powered Web and Mobile Trading Launch Really Means",
     "category": "Article",
