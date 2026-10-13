@@ -1,5 +1,26 @@
 [
   {
+    "id": "leverate-ask-review-can-an-in-platform-ai-assistant-remove-friction-from-trading",
+    "title": "Leverate ASK Review: Can an In-Platform AI Assistant Remove Friction From Trading Workflows?",
+    "category": "Article",
+    "summary": "Leverate ASK is most useful as a workflow layer, not as a signal generator: it brings account questions, platform navigation, chart actions, and broker-approved trade actions into one conversation. For traders and broker…",
+    "readTime": "3 min",
+    "date": "2026-10-13",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "<a href=\"https://www.globenewswire.com/news-release/2026/10/01/3372865/0/en/from-question-to-action-leverate-launches-ask-its-native-ai-assistant-for-traders.html\\\">Leverate ASK</a> is most useful as a workflow layer, not as a signal generator: it brings account questions, platform navigation, chart actions, and broker-approved trade actions into one conversation. For traders and broker teams, its value is fewer context switches and a clearer route from a question to a verified next step. The important limit is equally clear: ASK requires explicit confirmation for actions affecting funds or open positions, and it is not positioned as autonomous trading or personalised investment advice.</p><p><img src=\"assets/github-leverate-ask-review-can-an-in-platform-ai-assistant-remove-friction-from-trading-1.png\" alt=\"\" loading=\"lazy\">",
+      "heading1": "What does Leverate ASK actually do?",
+      "section1": "Launched by Leverate on October 1, 2026, ASK is a native assistant within the company's trading platform. It can answer questions using a trader's own account context, including balances, positions, margin, verification status, deposit history, and bonus status. When a response is not enough, ASK can direct the user to the relevant platform area, highlight it, or add an indicator to a chart. This makes it a practical <strong>trading operations assistant</strong>: it focuses on turning account and platform information into an immediate, controlled action.",
+      "quote": "",
+      "heading2": "Why can a native assistant improve trading efficiency?",
+      "section2": "The efficiency gain comes from reducing the handoffs between trading terminal, help center, support chat, and account-management pages. A trader investigating margin or a withdrawal issue can remain in the same interface instead of translating the problem across tools. For brokers, routine requests can be resolved inside their own environment, while escalation paths remain configurable. The useful design principle is <strong>answer, orient, then confirm</strong>: explain the current state, show the relevant control, and require approval before a consequential action.</p><p><strong>How should traders evaluate ASK against a generic AI chatbot?</strong></p><p>A generic chatbot can explain concepts, but it normally lacks permissioned access to the trader's platform state. ASK's differentiator is that its answers are tied to the account and its next steps occur in the trading environment. That advantage also creates a stricter evaluation checklist: confirm what data the assistant can read, which actions the broker has enabled, whether trade confirmation is always on for the intended workflow, and how the platform records or escalates exceptions. Availability can vary by broker configuration and jurisdiction, so a feature shown in a product announcement should not be treated as universally enabled.</p><p><strong>What is the practical rollout plan for a broker or active trader?</strong></p><p>Start with low-risk, high-frequency tasks such as balance explanations, position lookup, navigation, and chart setup. Next, test responses against known account states and define when a human support path must take over. Only then consider broker-enabled actions such as modifying or closing a trade, with explicit confirmation and clear permission boundaries. This staged approach preserves the speed benefit of conversational trading tools while keeping accountability attached to the trader and broker rather than to the model.</p><p>The wider trend is not simply AI answering more market questions. It is AI being embedded into the execution and support workflow where context, permissions, and confirmation matter. Leverate ASK is a timely example of that shift: the best test is not whether the assistant sounds informed, but whether it shortens a real task without weakening a trader's control over money, positions, or risk.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "building-an-ai-quant-trading-agent-what-the-alpaca-case-study-really-teaches",
     "title": "Building an AI Quant Trading Agent: What the Alpaca Case Study Really Teaches",
     "category": "Article",
