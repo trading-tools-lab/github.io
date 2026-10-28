@@ -1,5 +1,26 @@
 [
   {
+    "id": "ibkr-autonomous-trading-how-to-use-ai-execution-without-surrendering-risk-contro",
+    "title": "IBKR Autonomous Trading: How to Use AI Execution Without Surrendering Risk Control",
+    "category": "Article",
+    "summary": "A practical framework for evaluating Interactive Brokers' new AI-enabled workflow, setting guardrails, and preserving trader oversight. IBKR Autonomous Trading is most useful as a controlled execution layer, not as a…",
+    "readTime": "3 min",
+    "date": "2026-10-28",
+    "tags": [
+      "Article"
+    ],
+    "body": {
+      "intro": "A practical framework for evaluating Interactive Brokers' new AI-enabled workflow, setting guardrails, and preserving trader oversight.</p><p><a href=\"https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php\">IBKR Autonomous Trading</a> is most useful as a controlled execution layer, not as a replacement for a trading plan. Interactive Brokers announced on October 21, 2026 that eligible clients can authorize connected AI platforms to monitor opportunities and submit supported stock and equity-option orders in a dedicated AI Partition. The productivity gain is real when instructions are specific, limits are predefined, and results are reviewed as a repeatable operating process.",
+      "heading1": "What does IBKR Autonomous Trading actually change?",
+      "section1": "The key change is the move from AI-assisted research to potentially autonomous order submission. IBKR's earlier AI Integration could help generate instructions for a user to review and submit. The new capability can let an authorized connected AI act inside boundaries set by the client, while funds for that activity sit in a separate AI Partition rather than requiring a new external account.",
+      "quote": "",
+      "heading2": "How should traders turn natural-language ideas into safe rules?",
+      "section2": "Start with instructions that are measurable and narrow. A useful rule names the instrument universe, trigger, action, position limit, timing, and exception path. For example, a portfolio-maintenance instruction can specify that a holding above a chosen portfolio weight is trimmed to a target weight each morning. That is more testable than asking an agent to find the best trade. <strong>Precision is the interface for risk control.</strong></p><p><strong>A practical pre-authorization checklist</strong></p><p>Before authorizing execution, define a small approved universe, maximum order size, daily loss or exposure threshold, allowed order types, and a stop condition for stale data or unusual volatility. Run the same logic first as alerts or review-required instructions, then compare the intended action with the final order record. This creates an audit trail and exposes ambiguous prompts before they become automated behavior.</p><p><img src=\"assets/github-ibkr-autonomous-trading-how-to-use-ai-execution-without-surrendering-risk-contro-1.png\" alt=\"\" loading=\"lazy\"></p><p><strong>Where is the trading-efficiency benefit strongest?</strong></p><p>The strongest use cases are repetitive monitoring and disciplined portfolio maintenance: scanning a defined watchlist, checking a threshold at a fixed time, summarizing a move, or applying a pre-approved rebalance. Interactive Brokers says the capability can monitor more than 75,000 listed stocks, options, and ETFs worldwide, but broad coverage should not be confused with a reason to widen a strategy. A smaller, well-specified scope usually produces clearer review and faster exception handling.</p><p><strong>What should a trader do next?</strong></p><p>Treat autonomy as a staged deployment. Write one deterministic workflow, test it with human approval, review its behavior across normal and volatile sessions, and only then consider limited authorization. Eligibility, funding limits, account restrictions, and feature availability vary by IBKR entity and country, so confirm the applicable terms before relying on the workflow. The durable advantage is not an AI that trades more often; it is a process that <strong>reduces routine decision friction while keeping accountability visible</strong>.</p><p><strong>Sources and further reading</strong></p><p><a href=\"https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php\"><strong>Interactive Brokers Introduces Autonomous Trading</strong></a> Primary launch announcement with concrete details on autonomous AI execution, the AI Partition, supported assets, safeguards, and eligibility.",
+      "close": ""
+    },
+    "status": "published"
+  },
+  {
     "id": "interactive-brokers-autonomous-trading-what-it-really-means-for-ai-powered-inves",
     "title": "Interactive Brokers Autonomous Trading: What It Really Means for AI-Powered Investing",
     "category": "Article",
